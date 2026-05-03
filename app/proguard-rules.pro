@@ -1,0 +1,6 @@
+-keep class com.axonwatch.network.** { *; }
+-keep class com.axonwatch.data.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn okio.**
